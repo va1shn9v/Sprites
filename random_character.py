@@ -183,5 +183,5 @@ if __name__ == '__main__':
 
         gen_char(body, bottom, top, hair)
         if (seed+1) % 100 == 0:
-            print 'generate %d/%d sequences' % (seed+1, n_class**4)
+            print('generate %d/%d sequences' % (seed+1, n_class**4))
 
